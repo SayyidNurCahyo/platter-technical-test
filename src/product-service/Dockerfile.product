@@ -1,7 +1,7 @@
 # The app was tested with Node v15.5.0
 # So rather than using the 'latest' tag, it is safer to specify this particular version of node 
 # for building the image. This can prevent compatibility issues with future releases of node.
-FROM node:15.5.0
+FROM node:20.11.1
 
 # Specify the working directory INSIDE the container
 WORKDIR /usr/src/app
